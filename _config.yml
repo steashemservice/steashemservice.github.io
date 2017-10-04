@@ -1,6 +1,7 @@
 # site settings
 title: Steas
-subtitle: Hemservice
+smalltitle: Hemservice
+subtitle: ""
 email: steas.hemservice@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "" # the subpath of your site, e.g. /blog

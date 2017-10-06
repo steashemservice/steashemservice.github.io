@@ -5,6 +5,7 @@ landing-title: 'Beställa rengöring, inredning säkert och enkelt'
 description: null
 image: null
 author: null
+tiles-count: 6
 ---
 
 Kom hem till ett välstädat hem som gör att du lämnar stressen utanför dörren och har en härlig tillvaro resten av dagen tillsammans med familjen. Städningen utförs av prefessionell personal med flerårig erfarenhet.

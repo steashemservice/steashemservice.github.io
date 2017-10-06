@@ -6,5 +6,5 @@ image: assets/images/objekt_1/pic7.jpg
 permalink: objekt_1.html
 ---
 <span class="image main">
-({{ site.url | absolute_path}}/assets/images/objekt_1/pic1.jpg)
+![test image]({{ site.url | absolute_path}}/assets/images/objekt_1/pic1.jpg)
 </span>

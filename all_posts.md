@@ -1,6 +1,6 @@
 ---
 layout: allposts
-title: se allt
+title: se alla inlägg
 landing-title: 'alla inlägg'
 nav-menu: true
 description: null

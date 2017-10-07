@@ -2,7 +2,7 @@
 title: SÅ FUNGERAR DET
 layout: landing
 description: 
-image: assets/images/pic07.jpg
+image: assets/images/banner.jpg
 nav-menu: true
 permalink: safungerardet.html
 ---

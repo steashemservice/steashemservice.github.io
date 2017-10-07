@@ -23,9 +23,7 @@ permalink: safungerardet.html
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="#" class="image">
-			<img src="assets/images/callormail.jpg" alt="" data-position="center center" />
-		</a>
+		<img class="image" src="assets/images/callormail.jpg" alt="" data-position="center center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -36,9 +34,7 @@ permalink: safungerardet.html
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image">
-			<img src="assets/images/fixed_price.jpg" alt="" data-position="top center" />
-		</a>
+		<img class="image" src="assets/images/fixed_price.jpg" alt="" data-position="top center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -49,9 +45,7 @@ permalink: safungerardet.html
 		</div>
 	</section>
 	<section>
-		<a href="#" class="image">
-			<img src="assets/images/relax.jpg" alt="" data-position="25% 25%" />
-		</a>
+		<img class="image" src="assets/images/relax.jpg" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">

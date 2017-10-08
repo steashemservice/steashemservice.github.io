@@ -19,6 +19,7 @@
 			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
                         > .resize_img > .image {
 				margin: 0 auto;
+				width: 50%;
 			}
 			> .image,.resize_img {
 				background-position: center center;

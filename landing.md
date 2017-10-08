@@ -4,7 +4,7 @@ layout: landing
 description: 
 image: assets/images/banner.jpg
 nav-menu: true
-permalink: hur fungerar det
+permalink: hur-fungerar-det
 ---
 
 <!-- Main -->

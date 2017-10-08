@@ -17,8 +17,10 @@
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
 			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
-
-			> .image {
+                        > .resize_img > .image {
+				margin: 0 auto;
+			}
+			> .image,.resize_img {
 				background-position: center center;
 				background-size: cover;
 				border-radius: 0;
@@ -72,7 +74,7 @@
 
 		@include breakpoint(xlarge) {
 			> section {
-				> .image {
+				> .image,.resize_img {
 					width: 40%;
 				}
 
@@ -84,7 +86,7 @@
 
 		@include breakpoint(large) {
 			> section {
-				> .image {
+				> .image,.resize_img {
 					width: 45%;
 				}
 
@@ -98,10 +100,12 @@
 			> section {
 				display: block;
 
-				> .image {
+				> .image,.resize_img {
 					width: 100%;
 				}
-
+				> .resize_img {
+					auto: 0 auto;
+				}
 				> .content {
 					@include padding(4em, 3em);
 					width: 100%;

@@ -1,5 +1,5 @@
 ---
-title: hur det fungerar
+title: Hur DET FUNGERAR
 layout: landing
 description: 
 image: assets/images/banner.jpg

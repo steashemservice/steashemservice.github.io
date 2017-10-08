@@ -34,7 +34,9 @@ permalink: hur-fungerar-det
 		</div>
 	</section>
 	<section>
-		<img class="image" src="assets/images/fastpris.jpg" alt="" data-position="top center" />
+		<div class="resize_img">
+  		  <img class="image" src="assets/images/fastpris.jpg" alt="" data-position="top center" />
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -45,7 +47,9 @@ permalink: hur-fungerar-det
 		</div>
 	</section>
 	<section>
-		<img class="image" src="assets/images/atwork.jpg" alt="" data-position="top center" />
+		<div class="resize_img">
+		  <img class="image" src="assets/images/atwork.jpg" alt="" data-position="top center" />
+		</div>
 		<div class="content">
 			<div class="inner">
 				<header class="major">

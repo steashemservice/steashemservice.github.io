@@ -2,7 +2,7 @@
 layout: page
 title: Tjänster Checklista
 description: 
-image: assets/images/pic11.jpg
+image: assets/images/checklist.jpg
 nav-menu: true
 published: true
 permalink: tjänster-checklista

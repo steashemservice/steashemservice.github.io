@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3 RUM & KÖK | 70  KVM | BROMMA / BECKOMBERGA
+title: 3 RUM & KÖK | 70  KVM
 description: Inredning för Visning
 image: assets/images/objekt_1/pic7.jpg
 permalink: objekt_1.html

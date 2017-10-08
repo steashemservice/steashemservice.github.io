@@ -6,8 +6,7 @@ description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
-street_address: Steas Hemservice Handelsbolag,
-Kanngjutargränd 25, 162 57 Vällingby, Stockholm
+street_address: Steas Hemservice Handelsbolag<br /> Kanngjutargränd 25<br /> 162 57 Vällingby<br /> Stockholm
 city: 
 Län: 
 zip_code: 

@@ -1,10 +1,10 @@
 ---
-title: SÅ FUNGERAR DET
+title: hur fungerar det
 layout: landing
 description: 
 image: assets/images/banner.jpg
 nav-menu: true
-permalink: safungerardet.html
+permalink: hur fungerar det
 ---
 
 <!-- Main -->
@@ -34,7 +34,7 @@ permalink: safungerardet.html
 		</div>
 	</section>
 	<section>
-		<img class="image" src="assets/images/fixed_price.jpg" alt="" data-position="top center" />
+		<!--<img class="image" src="assets/images/fixed_price.jpg" alt="" data-position="top center" />-->
 		<div class="content">
 			<div class="inner">
 				<header class="major">

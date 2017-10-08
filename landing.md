@@ -1,5 +1,5 @@
 ---
-title: Hur DET FUNGERAR
+title: HUR DET FUNGERAR
 layout: landing
 description: 
 image: assets/images/banner.jpg
@@ -34,11 +34,22 @@ permalink: hur-fungerar-det
 		</div>
 	</section>
 	<section>
-		<!--<img class="image" src="assets/images/fixed_price.jpg" alt="" data-position="top center" />-->
+		<img class="image" src="assets/images/fastpris.jpg" alt="" data-position="top center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
 					<h3>Rhoncus magna</h3>
+				</header>
+				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<img class="image" src="assets/images/atwork.jpg" alt="" data-position="top center" />
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Sed nunc ligula</h3>
 				</header>
 				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 			</div>

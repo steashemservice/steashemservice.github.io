@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Tjänster Checklista
+title: Tjänster
 description: 
 image: assets/images/checklist.jpg
 nav-menu: true
 published: true
-permalink: tjänster-checklista
+permalink: tjänster
 ---
 

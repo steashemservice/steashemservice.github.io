@@ -13,14 +13,7 @@ permalink: checklista-stadning
 		<header class="major">
 			<h2>Checklista Hemstädning</h2>
 		</header>
-  </div>
-</section>
-
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Alla Rum</h2>
-		</header>
+		<h2>Alla Rum</h2>
 		<ul>
 			<li>Dammsuga golv, mattor och klädda/stoppade möbler.</li>
       <li>Skaka och vädra små mattor (om möjligheten finns).</li>
@@ -33,14 +26,7 @@ permalink: checklista-stadning
       <li>Damma av möbler och lampor.</li>
       <li>Dammtorka/damma av prydnadssaker, hyllor och tavlor (ej putsa).</li>
 		</ul>
-  </div>
-</section>
-
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Badrum och Toalett</h2>
-		</header>
+                <h2>Badrum och Toalett</h2>
 		<ul>
 <li>Rengöra ytskikt av badkar/dusch och toalett.</li>
 <li>Torka av badrumsskåp.</li>
@@ -49,14 +35,7 @@ permalink: checklista-stadning
 <li>Rengöra utsidan på vitvaror.</li>
 <li>Lätt städning ytskikt i bastu (ej aggregat).</li>
     </ul>
-	</div>
-</section>
-
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>köket</h2>
-		</header>
+        <h2>köket</h2>
 		<ul>
 <li>Torka av fläkt och vitvaror.</li>
 <li>Rengöra in- och utvändigt i skåp där.</li>

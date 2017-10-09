@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Checklista Städning
+title: CHECKLISTA STÄDNING
 description: 
 image: assets/images/checklist.jpg
 nav-menu: no

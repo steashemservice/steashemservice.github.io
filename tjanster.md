@@ -14,7 +14,7 @@ permalink: tjanster
 		<header class="major">
 			<h2>Interior Decoration</h2>
 		</header>
-		<p></p>
+		<p>Some description here.</p>
 	</div>
 </section>
 <section id="three">
@@ -22,7 +22,7 @@ permalink: tjanster
 		<header class="major">
 			<h2>Städning</h2>
 		</header>
-		<p></p>
+		<p>Some more description here before link to checklist down.</p>
 		<ul class="actions">
 			<li><a href="checklista-stadning" class="button next">Här hittar vår checklista</a></li>
 		</ul>

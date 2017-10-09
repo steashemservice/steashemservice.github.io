@@ -21,7 +21,7 @@ permalink: checklista-stadning
 		<header class="major">
 			<h2>Alla Rum</h2>
 		</header>
-		<ul class="actions">
+		<ul>
 			<li>Dammsuga golv, mattor och klädda/stoppade möbler.</li>
       <li>Skaka och vädra små mattor (om möjligheten finns).</li>
       <li>Moppa/torka av golvet.</li>
@@ -41,7 +41,7 @@ permalink: checklista-stadning
 		<header class="major">
 			<h2>Badrum och Toalett</h2>
 		</header>
-		<ul class="actions">
+		<ul>
 <li>Rengöra ytskikt av badkar/dusch och toalett.</li>
 <li>Torka av badrumsskåp.</li>
 <li>Rengöra och putsa kran och handfat.</li>
@@ -57,7 +57,7 @@ permalink: checklista-stadning
 		<header class="major">
 			<h2>köket</h2>
 		</header>
-		<ul class="actions">
+		<ul>
 <li>Torka av fläkt och vitvaror.</li>
 <li>Rengöra in- och utvändigt i skåp där.</li>
 <li>sopbehållare finns.</li>

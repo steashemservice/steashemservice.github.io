@@ -1,19 +1,19 @@
 ---
 layout: page
-title: HEMSTÄDNING
+title: VISNINGSTÄDNING
 description: 
-image: assets/images/hemstadning.jpg
+image: assets/images/visningstadning.jpg
 nav-menu: true
 published: true
-permalink: hemstadning
+permalink: visningstadning
 service: true
-order: 2
+order: 3
 ---
 
 <section id="three">
 	<div class="inner">
 		<header class="major">
-			<h2>Checklista Hemstädning</h2>
+			<h2>Checklista Visningstädning</h2>
 		</header>
 		<h2>Alla Rum</h2>
 		<ul>

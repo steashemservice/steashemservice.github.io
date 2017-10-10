@@ -11,9 +11,9 @@ service: true
 
 <section id="three">
 	<div class="inner">
-		<!--<header class="major">
+		<header class="major">
 			<h2>Checklista Hemstädning</h2>
-		</header> -->
+		</header>
 		<h2>Alla Rum</h2>
 		<ul>
 			<li>Dammsuga golv, mattor och klädda/stoppade möbler.</li>

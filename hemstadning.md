@@ -2,11 +2,12 @@
 layout: page
 title: HEMSTÄDNING
 description: 
-image: assets/images/checklist.jpg
+image: assets/images/hemstadning.jpg
 nav-menu: true
 published: true
 permalink: hemstadning
 service: true
+order: 2
 ---
 
 <section id="three">

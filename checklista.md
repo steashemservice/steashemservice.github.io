@@ -6,6 +6,7 @@ image: assets/images/checklist.jpg
 nav-menu: false
 published: true
 permalink: checklista-stadning
+service: true
 ---
 
 <section id="three">

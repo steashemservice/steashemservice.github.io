@@ -8,23 +8,18 @@ published: true
 permalink: tjanster
 ---
 
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Interior Decoration</h2>
-		</header>
-		<p>Some description here.</p>
-	</div>
-</section>
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Städning</h2>
-		</header>
-		<p>Some more description here before link to checklist down.</p>
-		<ul class="actions">
-			<li><a href="checklista-stadning" class="button next">Här hittar vår checklista</a></li>
-		</ul>
-	</div>
+<section id="one" class="tiles">
+	{% for page in site.pages limit:page.tiles-count %}
+	{% if page.title != 'TJÄNSTER' %}
+        <article>
+                <span class="image">
+                        <img src="{{ page.image }}" alt="" />
+                </span>
+                <header class="major">
+                        <h3><a href="{{ page.url | relative_url  }}" class="link">{{ page.title }}</a></h3>
+                        <p>{{ page.description }}</p>
+                </header>
+        </article>
+	{% endif %}
+	{% endfor %}
 </section>

@@ -3,7 +3,7 @@ layout: page
 title: HEMSTÄDNING
 description: 
 image: assets/images/checklist.jpg
-nav-menu: false
+nav-menu: true
 published: true
 permalink: hemstadning
 service: true

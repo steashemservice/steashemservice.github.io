@@ -10,7 +10,7 @@ permalink: tjanster
 
 <section id="one" class="tiles">
 	{% for page in site.pages limit:page.tiles-count %}
-	{% if page.title != 'TJÄNSTER' %}
+	{% if page.service == 'yes' %}
         <article>
                 <span class="image">
                         <img src="{{ page.image }}" alt="" />

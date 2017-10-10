@@ -6,6 +6,7 @@ image: assets/images/service.jpg
 nav-menu: true
 published: true
 permalink: tjanster
+order: 1
 ---
 
 <section id="one" class="tiles">

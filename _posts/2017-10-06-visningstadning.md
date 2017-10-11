@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3 RUM & KÖK | 70  KVM
-description: Visningstädning
+description: Visningstädning & Hemstyling
 image: assets/images/objekt_1/pic7.jpg
 permalink: objekt_1.html
 ---

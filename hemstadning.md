@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HEMSTÄDNING
-description: 39 kr / kvm och minst 1299kr.
+description: Prova på första hemstädning för 99kr/timme efteråt 190kr / timme och minst 380kr (2 timmer).
 image: assets/images/hemstadning.jpg
 nav-menu: true
 published: true
@@ -14,7 +14,7 @@ order: 2
 	<div class="inner">
 	        <p>Kom hem till ett välstädat hem, lämna stressen utanför dörren och ha mer tid med familjen och vänner. Vi håller alltid en hög kvalitet på våra arbeten och är måna om att ha en nära dialog med våra kunder. Städningen utförs av professionell personal med flerårig erfarenhet. Vi har nöjd kund garanti, miljömästka städprodukter och ansvarsförsäkring. </p>
 		<h4>Erbjudande</h4>
-                <p>Prova på första hemstädning för 99kr/timme.</p>
+                <p>Prova på första hemstädning för 99kr/timme utan RUT.</p>
 		<header class="major">
 			<h2>Checklista Hemstädning</h2>
 		</header>

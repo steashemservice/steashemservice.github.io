@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HEMSTÄDNING
-description: 
+description: 39 kr / kvm och minst 1299kr.
 image: assets/images/hemstadning.jpg
 nav-menu: true
 published: true

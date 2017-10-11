@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Trappstädning
+title: TRAPPSTÄDNING
 description: 289 kr / timme excl moms.
 image: assets/images/hemstadning.jpg
 nav-menu: true

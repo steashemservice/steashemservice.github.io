@@ -1,20 +1,20 @@
 ---
 layout: page
-title: TRAPPSTÄDNING
-description: 289 kr / timme excl moms.
+title: FLYTTSTÄDNING
+description: 29 kr / kvm och minst 1450 kr utan RUT.
 image: assets/images/hemstadning.jpg
 nav-menu: true
 published: true
-permalink: trappstadning
+permalink: flyttstadning
 service: true
-order: 5
+order: 3
 ---
 
 <section id="three">
 	<div class="inner">
-	        <p>Kom hem till ett välstädat hem, lämna stressen utanför dörren och ha mer tid med familjen och vänner. Vi håller alltid en hög kvalitet på våra arbeten och är måna om att ha en nära dialog med våra kunder. Städningen utförs av professionell personal med flerårig erfarenhet. Vi har nöjd kund garanti, miljömästka städprodukter och ansvarsförsäkring.</p><p>Pris: 289 kr / timme excl moms.</p>
+	        <p>Kom hem till ett välstädat hem, lämna stressen utanför dörren och ha mer tid med familjen och vänner. Vi håller alltid en hög kvalitet på våra arbeten och är måna om att ha en nära dialog med våra kunder. Städningen utförs av professionell personal med flerårig erfarenhet. Vi har nöjd kund garanti, miljömästka städprodukter och ansvarsförsäkring.</p><p>Pris: 29 kr / kvm och minst 1450 kr utan RUT.</p>
 		<header class="major">
-			<h2>Checklista Trappstädning</h2>
+			<h2>Checklista Flyttstädning</h2>
 		</header>
 		<h2>Alla Rum</h2>
 		<ul>

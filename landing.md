@@ -16,7 +16,7 @@ permalink: hur-fungerar-det
 		<header class="major">
 			<h2>Enkelt, Tryggt och Prisvärd</h2>
 		</header>
-		<p>Kom hem till ett välstädat hem som gör att du lämnar stressen utanför dörren och har en härlig tillvaro resten av dagen tillsammans med familjen. Städningen utförs av prefessionell personal med flerårig erfarenhet.</p>
+		<p>Du ber enkelt en offert ifrån oss på vår hemsida och känna dig tryggt med oss då vi har en ansvarsförsäkring. Vi ger en prisvärd offert.</p>
 	</div>
 </section>
 
@@ -29,7 +29,7 @@ permalink: hur-fungerar-det
 				<header class="major">
 					<h3>Snabb Offert</h3>
 				</header>
-				<p>Text about use the contact form below or call us on the given number.</p>
+				<p>Du får en offert svar inom samma dag.</p>
 			</div>
 		</div>
 	</section>
@@ -42,7 +42,7 @@ permalink: hur-fungerar-det
 				<header class="major">
 					<h3>Fasta Priser</h3>
 				</header>
-				<p>Text about fixed price including all materials.</p>
+				<p>Vi har fasta kvm priser, så att du kan känna sdig tryggt med att i förväg veta vad det kostar. Hemstyling är avdragsgiltiga i deklaration. Städningen får du rut avdrag.</p>
 			</div>
 		</div>
 	</section>
@@ -55,7 +55,7 @@ permalink: hur-fungerar-det
 				<header class="major">
 					<h3>Garantera Tjänster</h3>
 				</header>
-				<p>Some more text.</p>
+				<p>Vi har 100 nöjd kund garanti.</p>
 			</div>
 		</div>
 	</section>
@@ -66,7 +66,7 @@ permalink: hur-fungerar-det
 				<header class="major">
 					<h3>Stress Mindre Liv</h3>
 				</header>
-				<p>More text.</p>
+				<p>Stressa mindre i vardagen och vid bostadsförsäljning.</p>
 			</div>
 		</div>
 	</section>

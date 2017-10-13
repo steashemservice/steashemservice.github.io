@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HEMSTÄDNING
-description: 219 kr / timme (2 personer) och minst 438 kr (2 timmer) incl. VAT utan RUT.
+description: 219 kr / timme (incl. 2 personer) och minst 438 kr (2 timmer) incl. VAT utan RUT.
 image: assets/images/hemstadning.jpg
 nav-menu: true
 published: true

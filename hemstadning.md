@@ -12,7 +12,7 @@ order: 2
 
 <section id="three">
 	<div class="inner">
-	        <p>Kom hem till ett välstädat hem, lämna stressen utanför dörren och ha mer tid med familjen och vänner. Vi håller alltid en hög kvalitet på våra arbeten och är måna om att ha en nära dialog med våra kunder. Städningen utförs av professionell personal med flerårig erfarenhet. Vi har nöjd kund garanti, miljömästka städprodukter och ansvarsförsäkring.</p><p>Pris: 219 kr / timme (2 personer) och minst 438 kr (2 timmer) incl. VAT utan RUT.</p>
+	        <p>Kom hem till ett välstädat hem, lämna stressen utanför dörren och ha mer tid med familjen och vänner. Vi håller alltid en hög kvalitet på våra arbeten och är måna om att ha en nära dialog med våra kunder. Städningen utförs av professionell personal med flerårig erfarenhet. Vi har nöjd kund garanti, miljömästka städprodukter och ansvarsförsäkring.</p><p>Pris: 219 kr / timme (incl. 2 personer) och minst 438 kr (2 timmer) incl. VAT utan RUT.</p>
 		<header class="major">
 			<h2>Checklista Hemstädning</h2>
 		</header>

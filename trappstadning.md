@@ -12,7 +12,7 @@ order: 5
 
 <section id="three">
 	<div class="inner">
-	        <p>Kom hem till ett välstädat hem, lämna stressen utanför dörren och ha mer tid med familjen och vänner. Vi håller alltid en hög kvalitet på våra arbeten och är måna om att ha en nära dialog med våra kunder. Städningen utförs av professionell personal med flerårig erfarenhet. Vi har nöjd kund garanti, miljömästka städprodukter och ansvarsförsäkring.</p><p>Pris: 289 kr / timme.</p>
+	        <p>Vi använder miljövänliga medel så mycket som det går för städningen, just för att undvika starka dofter, vilket kan vara alergiska för till exempel barn och för att spara på miljön. Vi utför trappstädning i åt bostadsrättsföreningar, bostadsföretag och fastighetsägare. En välstädad trappuppgång borgar för en hög säkerhet och liten risk för halkolyckor samt andra skador som är vanliga i trappor.</p><p>Pris: 289 kr / timme.</p>
 		<header class="major">
 			<h2>Checklista Trappstädning</h2>
 		</header>

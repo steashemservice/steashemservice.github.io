@@ -91,7 +91,7 @@
 	};
 
 	$(function() {
-
+                $( "#date" ).datepicker();
 		var	$window = $(window),
 			$body = $('body'),
 			$wrapper = $('#wrapper'),

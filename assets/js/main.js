@@ -91,9 +91,8 @@
 	};
 
 	$(function() {
-		var dateToday = new Date();
-                $( "#date" ).datepicker({
-                    minDate: dateToday
+		$( "#date" ).datepicker({
+                    minDate: 0
                 });
 		var	$window = $(window),
 			$body = $('body'),

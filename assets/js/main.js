@@ -356,18 +356,18 @@
 (function($) {
 $.noConflict();
 var ot = Array();
-ot['mon']='8:00 AM-5:00 PM';
-ot['tue']='8:00 AM-5:00 PM';
-ot['wed']='8:00 AM-5:00 PM';
-ot['thu']='8:00 AM-5:00 PM';
-ot['fri']='8:00 AM-5:00 PM';
-ot['sat']='9:00 AM-5:00 PM';
-ot['sun']='9:00 AM-5:00 PM';
+ot['mon']='12:00 AM-11:59 PM';
+ot['tue']='12:00 AM-11:59 PM';
+ot['wed']='12:00 AM-11:59 PM';
+ot['thu']='12:00 AM-11:59 PM';
+ot['fri']='12:00 AM-11:59 PM';
+ot['sat']='12:00 AM-11:59 PM';
+ot['sun']='12:00 AM-11:59 PM';
 var tz = '+01:00,1';
 var widget_position = 'bottom_right';
 var fb = 'steasservice';
 var fb_email = 'support@steas.se';
-var emailLink = true;
+var emailLink = false;
 var mon = true;
 var tue = true;
 var wed = true;

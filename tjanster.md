@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TJÄNSTER
+title: 
 description: 
 image: assets/images/service.jpg
 nav-menu: true

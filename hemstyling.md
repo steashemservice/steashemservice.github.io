@@ -1,6 +1,6 @@
 ---
 layout: page
-title: HEMSTYLING
+title: 
 description: 9 999 kr riktpris med 70-80 kvm. Större möbler som matbordset, soffa och sängar förväntas finnas på plats
 image: assets/images/visningstadning.jpg
 nav-menu: true

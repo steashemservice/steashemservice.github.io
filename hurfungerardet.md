@@ -2,7 +2,7 @@
 title: HUR DET FUNGERAR
 layout: landing
 description: 
-image: assets/images/banner.jpg
+image: 
 nav-menu: true
 permalink: hurfungerardet
 ---

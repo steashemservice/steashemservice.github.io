@@ -17,12 +17,12 @@
 		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
 	    	{% endif %}
 		{% endfor %}
-		{% assign sorted_pages = site.pages | sort:"order" %}
+		<!--{% assign sorted_pages = site.pages | sort:"order" %}
                 {% for page in sorted_pages %}
 		    {% if page.layout != "home" and page.layout != "landing" and page.nav-menu == true %}
 		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
-		{% endfor %}
+		{% endfor %}-->
 	</ul>
 	<ul class="actions vertical">
 		<li><a href="/hurfungerardet" class="button special fit">hur det fungerart</a></li>

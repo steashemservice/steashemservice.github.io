@@ -208,7 +208,7 @@
 	    ev.preventDefault();
 	    jQuery.ajax({
 	      type: "post",
-	      url: "https://app.steas.se/user_interest.php",
+	      url: "https://cors.io/?https://app.steas.se/user_interest.php",
 	      data: jQuery('#contact-form').serialize(),
 	      dataType: "json",
 	      success: function(response) {

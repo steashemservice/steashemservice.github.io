@@ -8,10 +8,19 @@
 
   			<label for="email">E-mail</label>
   			<input id="email" type="email" name="email" class="field" required /><br/>
-
-  			<label for="message">Message</label>
-  			<textarea id="message" name="message" ></textarea><br/>
-
+			
+			<label for="region">Län</label>
+			<select type="text" name="region" id="region">
+			    <option value="Stockholms">Stockholms</option>
+			</select>
+			    
+			<label for="area">Kommun</label>
+			<select type="text" name="area" id="area" required>
+			    <option value="">None</option>
+			    <option value="Stockholm">Stockholm</option>
+			    <option value="Solna">Solna</option>
+			    <option value="Sundbyberg">Sundbyberg</option>
+			</select>  
   			<!-- <label for="recaptcha_response_field">Captcha</label>
   			<div id="recaptcha_widget" class="recaptcha">
     			    <div class="image">

@@ -202,3 +202,27 @@
         <!--<script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>-->
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+	$("#contact-form").submit(function(ev){
+	    ev.preventDefault();
+	    $.ajax({
+	      type: "post",
+	      url: "https://app.steas.se/user_interest.php",
+	      data: $('#contact-form').serialize(),
+	      dataType: "json",
+	      success: function(response) {
+		if(response.Msg === "success") {
+		  
+		} else {
+		  
+		}
+	      },
+	      error: function(xhr, ajaxOptions, thrownError){
+		  $('#contact-form').html("<div id='message'></div>");
+		  $('#message').html("<h2>Error sending the message</h2>").hide().fadeIn(1500);
+	      }
+	    });
+	});
+    });
+</script>

@@ -395,7 +395,7 @@ return false;}
 function convertTimeFormat(time){var hours=Number(time.match(/^(\d+)/)[1]);var minutes=Number(time.match(/:(\d+)/)[1]);var AMPM=time.match(/\s(.*)$/)[1];if(AMPM=="PM"&&hours<12)hours=hours+12;if(AMPM=="AM"&&hours==12)hours=hours-12;var sHours=hours.toString();var sMinutes=minutes.toString();if(hours<10)sHours="0"+sHours;if(minutes<10)sMinutes="0"+sMinutes;return sHours+":"+sMinutes;}
 function calcTime(city, offset){d=new Date();utc=d.getTime()+(d.getTimezoneOffset()*60000);nd=new Date(utc+(3600000*offset));return nd;}
 function setupRecaptcha() {
-  var contactFormHost = 'YOUR_BACKEND_ADDRESS_FROM_HEROKU',
+  var contactFormHost = 'https://app.steas.se/user_registration.php',
       form = $('#contact-form'),
       notice = form.find('#notice');
 
@@ -406,12 +406,12 @@ function setupRecaptcha() {
 
       $.ajax({
         type: 'POST',
-        url: contactFormHost + 'send_email',
+        url: contactFormHost,
         data: form.serialize(),
         dataType: 'json',
         success: function(response) {
-          switch (response.message) {
-            case 'success':
+          switch (response.Msg) {
+            case 'Success':
               form.fadeOut(function() {
                 form.html('<h4>' + form.data('success') + '</h4>').fadeIn();
               });
@@ -422,7 +422,7 @@ function setupRecaptcha() {
               //notice.text(notice.data('captcha-failed')).fadeIn();
               //break;
 
-            case 'failure_email':
+            case 'Exist':
               notice.text(notice.data('error')).fadeIn();
           }
         },

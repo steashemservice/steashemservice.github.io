@@ -1,45 +1,37 @@
 <!-- Contact -->
 <section id="contact">
 	<div class="inner">
+		<header class="major">
+                    <h2>Register Your Interest</h2>
+                </header>
 		<section>
-		    <form id="contact-form" class="contact-form" method="post" data-success="Message successfully sent!">
+		    <form id="contact-form" class="contact-form" method="post" data-success="Your interest successfully registered! Thank you for your interest.">
   			<input type="hidden" name="_next" value="thanks" />
 			<input id="dispnon" name="_prev" type="text" />
-			<label for="name">Name</label>
-  			<input id="name" type="text" name="name" class="field" required /><br/>
-
-  			<label for="email">E-mail</label>
-  			<input id="email" type="email" name="email" class="field" required /><br/>
-			
-			<label for="region">Län</label>
-			<select type="text" name="region" id="region" class="field">
+		      	<div class="field">    
+			  <label for="name">Name</label>
+  			  <input id="name" type="text" name="name" class="field" required /><br/>
+                        </div>
+			<div class="field">
+  			  <label for="email">E-mail</label>
+  			  <input id="email" type="email" name="email" class="field" required /><br/>
+			</div>
+			<div class="field half first">
+			  <label for="region">Län</label>
+			  <select type="text" name="region" id="region" class="field">
 			    <option value="Stockholms">Stockholms</option>
-			</select>
-			    
-			<label for="area">Kommun</label>
-			<select type="text" name="area" id="area" class="field" required>
+			  </select>
+			</div>
+			<div class="field half">
+			  <label for="area">Kommun</label>
+			  <select type="text" name="area" id="area" class="field" required>
 			    <option value="">None</option>
 			    <option value="Stockholm">Stockholm</option>
 			    <option value="Solna">Solna</option>
 			    <option value="Sundbyberg">Sundbyberg</option>
-			</select>  
-  			<!-- <label for="recaptcha_response_field">Captcha</label>
-  			<div id="recaptcha_widget" class="recaptcha">
-    			    <div class="image">
-      			        <div id="recaptcha_image"></div>
-    			    </div>
-
-    			    <div class="headline recaptcha_only_if_image">Enter the words above:</div>
-    			    <div class="headline recaptcha_only_if_audio">Enter the numbers you hear:</div>
-
-    			    <input type="text" id="recaptcha_response_field" name="recaptcha_response_field" required />
-
-    			    <span class="recaptcha_icon"><a href="javascript:Recaptcha.reload()"><i class="fa fa-refresh"></i></a></span>
-    			    <span class="recaptcha_icon recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')"><i class="fa fa-volume-up"></i></a></span>
-    			    <span class="recaptcha_icon recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')"><i class="fa fa-font"></i></a></span>
-    			    <span class="recaptcha_icon"><a href="javascript:Recaptcha.showhelp()"><i class="fa fa-question-circle"></i></a></span>
-  			</div><br/> -->
-  			<div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
+			  </select>  
+			</div>
+			<div id="notice" class="notice" data-exception="Something went wrong. Try again!" data-error="You already have registered your interest. Thank you for your interest."></div>
   			<button type="submit">Send</button>
 		    </form>
 			<!-- <form action="https://formspree.io/{{ site.email }}" method="POST">
@@ -223,21 +215,18 @@ var contactFormHost = 'https://app.steas.se/user_interest.php',
           switch (response.Msg) {
             case 'Success':
               form.fadeOut(function() {
-                form.html('<h4>' + form.data('success') + '</h4>').fadeIn();
+                form.html('<div class="field"><h4>' + form.data('success') + '</h4></div>').fadeIn();
               });
               break;
-
-            case 'failure_captcha':
-              showRecaptcha('recaptcha_widget');
-              notice.text(notice.data('captcha-failed')).fadeIn();
+	    case 'Exist':
+	      form.fadeOut(function() {
+                form.html('<div class="field"><h4>' + notice.data('error') + '</h4></div>').fadeIn();
+              });
               break;
-
-            case 'Exist':
-              notice.text(notice.data('error')).fadeIn();
           }
         },
         error: function(xhr, ajaxOptions, thrownError) {
-          notice.text(notice.data('error')).fadeIn();
+          notice.html(notice.data('exception')).fadeIn();
         }
       });
     });

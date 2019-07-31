@@ -430,5 +430,4 @@ var contactFormHost = 'https://app.steas.se/user_interest.php',
       });
     });
   }
-    });	
 })(jQuery);	

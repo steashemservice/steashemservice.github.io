@@ -2,7 +2,7 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-		    <form action="https://app.steas.se/user_interest.php" id="contact-form" class="contact-form" method="post" data-success="Message successfully sent!">
+		    <form id="contact-form" class="contact-form" method="post" data-success="Message successfully sent!">
   			<input type="hidden" name="_next" value="thanks" />
 			<input id="dispnon" name="_prev" type="text" />
 			<label for="name">Name</label>
@@ -204,3 +204,43 @@
         <!--<script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>-->
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+<script type="text/javascript">
+   jQuery(document).ready(function(){
+var contactFormHost = 'https://app.steas.se/user_interest.php',
+      form = jQuery('#contact-form'),
+      notice = form.find('#notice');
+
+  if (form.length) {
+    form.submit(function(ev){
+      ev.preventDefault();
+
+      jQuery.ajax({
+        type: 'POST',
+        url: contactFormHost,
+        data: form.serialize(),
+        dataType: 'json',
+        success: function(response) {
+          switch (response.Msg) {
+            case 'Success':
+              form.fadeOut(function() {
+                form.html('<h4>' + form.data('success') + '</h4>').fadeIn();
+              });
+              break;
+
+            case 'failure_captcha':
+              showRecaptcha('recaptcha_widget');
+              notice.text(notice.data('captcha-failed')).fadeIn();
+              break;
+
+            case 'Exist':
+              notice.text(notice.data('error')).fadeIn();
+          }
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+          notice.text(notice.data('error')).fadeIn();
+        }
+      });
+    });
+  }
+    });
+</script>

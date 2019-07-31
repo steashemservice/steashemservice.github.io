@@ -396,3 +396,39 @@ function convertTimeFormat(time){var hours=Number(time.match(/^(\d+)/)[1]);var m
 function calcTime(city, offset){d=new Date();utc=d.getTime()+(d.getTimezoneOffset()*60000);nd=new Date(utc+(3600000*offset));return nd;}
 function isEmail(email){var regex=/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;return regex.test(email);} jQuery( document ).ready(function($) { calculate_time_zone(true); validate(); setInterval(validate, 30000); $('#fb_link').click(linkHandler);
 });})(jQuery);
+(function($) {
+var contactFormHost = 'https://app.steas.se/user_interest.php',
+      form = jQuery('#contact-form'),
+      notice = form.find('#notice');
+
+  if (form.length) {
+    form.submit(function(ev){
+      ev.preventDefault();
+
+      jQuery.ajax({
+        type: 'POST',
+        url: contactFormHost,
+        data: form.serialize(),
+        dataType: 'json',
+	success: function(response) {
+          switch (response.Msg) {
+            case 'Success':
+              form.fadeOut(function() {
+                form.html('<div class="field"><h4>' + form.data('success') + '</h4></div>').fadeIn();
+              });
+              break;
+	    case 'Exist':
+	      form.fadeOut(function() {
+                form.html('<div class="field"><h4>' + notice.data('error') + '</h4></div>').fadeIn();
+              });
+              break;
+          }
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+          notice.html(notice.data('exception')).fadeIn();
+        }
+      });
+    });
+  }
+    });	
+})(jQuery);	

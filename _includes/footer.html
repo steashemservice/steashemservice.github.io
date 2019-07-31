@@ -217,7 +217,7 @@ var contactFormHost = 'https://app.steas.se/user_interest.php',
       jQuery.ajax({
         type: 'POST',
         url: contactFormHost,
-        data: JSON.stringify( form.serializeArray() ),
+        data: form.serialize(),
         dataType: 'json',
 	success: function(response) {
           switch (response.Msg) {

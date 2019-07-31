@@ -425,7 +425,7 @@ var contactFormHost = 'https://app.steas.se/user_interest.php',
           }
         },
         error: function(xhr, ajaxOptions, thrownError) {
-          notice.html(notice.data('exception')).fadeIn();
+          notice.html('<h4>' + notice.data('exception') + '</h4>').fadeIn();
         }
       });
     });

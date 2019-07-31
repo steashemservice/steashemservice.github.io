@@ -1,10 +1,10 @@
 <!-- Contact -->
 <section id="contact">
 	<div class="inner">
-		<header class="major">
-                    <h2>Register Your Interest</h2>
-                </header>
 		<section>
+		    <header class="major">
+                    	<h2>Register Your Interest</h2>
+                    </header>
 		    <form id="contact-form" class="contact-form" method="post" data-success="Your interest successfully registered! Thank you for your interest.">
   			<input type="hidden" name="_next" value="thanks" />
 			<input id="dispnon" name="_prev" type="text" />
@@ -196,40 +196,3 @@
         <!--<script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>-->
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
-<script type="text/javascript">
-   jQuery(document).ready(function(){
-var contactFormHost = 'https://app.steas.se/user_interest.php',
-      form = jQuery('#contact-form'),
-      notice = form.find('#notice');
-
-  if (form.length) {
-    form.submit(function(ev){
-      ev.preventDefault();
-
-      jQuery.ajax({
-        type: 'POST',
-        url: contactFormHost,
-        data: form.serialize(),
-        dataType: 'json',
-	success: function(response) {
-          switch (response.Msg) {
-            case 'Success':
-              form.fadeOut(function() {
-                form.html('<div class="field"><h4>' + form.data('success') + '</h4></div>').fadeIn();
-              });
-              break;
-	    case 'Exist':
-	      form.fadeOut(function() {
-                form.html('<div class="field"><h4>' + notice.data('error') + '</h4></div>').fadeIn();
-              });
-              break;
-          }
-        },
-        error: function(xhr, ajaxOptions, thrownError) {
-          notice.html(notice.data('exception')).fadeIn();
-        }
-      });
-    });
-  }
-    });
-</script>

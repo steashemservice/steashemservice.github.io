@@ -219,8 +219,7 @@ var contactFormHost = 'https://app.steas.se/user_interest.php',
         url: contactFormHost,
         data: JSON.stringify( form.serializeArray() ),
         dataType: 'json',
-	contentType: 'application/json;charset=UTF-8',      
-        success: function(response) {
+	success: function(response) {
           switch (response.Msg) {
             case 'Success':
               form.fadeOut(function() {

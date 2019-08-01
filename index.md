@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Vi samlar din källsortering vid dörren'
+landing-title: 'Vi hämtar din källsortering vid dörren'
 description: null
 image: null
 author: null

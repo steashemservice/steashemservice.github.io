@@ -27,19 +27,14 @@
 	#concept {
 		border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
-
-		> .inner {
-			@include vendor('display', 'flex');
-			padding: 0 !important;
-
-			> :not(:last-child) {
-				@include padding(4em, 0, (0, 3em, 0, 0));
-				width: 33%;
-			}
-
-			> :last-child {
-				padding: 0;
-				width: 34%;
-			}
-                }
-	}
+                @include vendor('display', 'flex');
+		padding: 0 !important;
+		> :not(:last-child) {
+			@include padding(4em, 0, (0, 3em, 0, 0));
+			width: 33%;
+		}
+		> :last-child {
+			padding: 0;
+			width: 34%;
+		}
+        }

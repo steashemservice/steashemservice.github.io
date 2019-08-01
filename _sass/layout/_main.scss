@@ -32,7 +32,7 @@
 			@include vendor('display', 'flex');
 			padding: 0 !important;
 
-			> :not(:last-child) {
+			> :not(:last-child):not(header) {
 				@include padding(4em, 0, (0, 3em, 0, 0));
 				width: 33%;
 			}

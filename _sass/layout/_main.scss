@@ -30,7 +30,10 @@
 		padding: 0 !important;
 		> * {
 			@include padding(0, 0, (0, 3em, 0, 0));
-			width: 33%;
+			width: 33%
+			> .icon {
+				font-size:10vw;
+			}	
 		}
 		> :last-child {
 			padding-right: 0;
@@ -42,6 +45,9 @@
 				@include padding(3em, 0, (0, 0, 0, 0));
 				border-right: 0;
 				width: 100%;
+				> .icon {
+					font-size:30vw;
+				}
 			}
 			> :first-child {
 				padding-top: 0;

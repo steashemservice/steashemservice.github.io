@@ -397,7 +397,7 @@ function calcTime(city, offset){d=new Date();utc=d.getTime()+(d.getTimezoneOffse
 function isEmail(email){var regex=/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;return regex.test(email);} jQuery( document ).ready(function($) { calculate_time_zone(true); validate(); setInterval(validate, 30000); $('#fb_link').click(linkHandler);
 });})(jQuery);
 (function($) {
-var contactFormHost = 'https://app.steas.se/user_interest_steas.php',
+var contactFormHost = 'https://app.steas.se/user_interest_recycle.php',
       form = jQuery('#contact-form'),
       notice = form.find('#notice');
 

@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: 'Nu kan du få hjälp med din källsortering'
 description: null
-image: null
+image: assets/images/people_recycling.jpg
 author: null
 tiles-count: 6
 ---
